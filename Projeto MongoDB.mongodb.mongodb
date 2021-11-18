@@ -29,7 +29,7 @@ ano:{
 $gt:"1997",
 $lt:"2004"
 }
-})
+}) // Intervalo de anos deve conter maior/menor e igual
 
 //3 - Buscando filmes de 2001 ou que comecem com a letra D
 db.Filmes.find({
